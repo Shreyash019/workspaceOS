@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2021",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@osm/common": ["packages/common/src/index.ts"],
+      "@osm/database": ["packages/database/src/index.ts"],
+      "@osm/logger": ["packages/logger/src/index.ts"]
+    }
+  }
+}
